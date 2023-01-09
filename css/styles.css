@@ -1,0 +1,248 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url(./fonts/Gilroy-Regular.eot);
+  src: local('Gilroy Regular'), local('Gilroy-Regular'),
+    url('Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Gilroy-Regular.woff') format('woff'), url('Gilroy-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(./fonts/Gilroy-SemiBold.eot);
+  src: local('Gilroy SemiBold'), local('Gilroy-SemiBold'),
+    url('Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('Gilroy-SemiBold.woff') format('woff'), url('Gilroy-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(./fonts/Gilroy-Bold.eot);
+  src: local('Gilroy Bold'), local('Gilroy-Bold'),
+    url('Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+    url('Gilroy-Bold.woff') format('woff'), url('Gilroy-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Gilroy Regular', sans-serif;
+  font-weight: 300;
+  color: #000000;
+}
+
+.container {
+  width: 1440px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+ul,
+h1,
+h2,
+h3,
+li,
+img {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+/* --------Header-------- */
+header {
+  display: flex;
+  align-items: center;
+  background-color: #fafafa;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  margin-left: 433px;
+}
+.header-logo {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 18px;
+  line-height: calc(39 / 18);
+  color: #231f20;
+  margin-left: 60px;
+  padding-top: 39px;
+  padding-bottom: 39px;
+}
+.header-list .item {
+  font-size: 18px;
+  line-height: calc(22 / 18);
+}
+
+.header-list .item:not(:first-child) {
+  margin-left: 31px;
+}
+
+.header-list .link {
+  color: #000000;
+}
+
+.header-btn {
+  font-family: 'Gilroy-Regular', sans-serif;
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  margin-left: 375px;
+  text-transform: uppercase;
+  color: #f7941e;
+  padding: 13px 20px;
+  border: 1px solid #f7941e;
+  border-radius: 5px;
+  background-color: transparent;
+}
+/* ----------Gift-------- */
+.gift {
+  display: flex;
+  padding: 0;
+  background-color: #f1f1f2;
+}
+.gift-img {
+  display: block;
+  margin-right: 0;
+  padding: 0;
+}
+.gift-about {
+  width: 720px;
+  padding-top: 154px;
+  padding-left: 162px;
+}
+.gift-title {
+  font-size: 56px;
+  line-height: 69px;
+  width: 433px;
+  margin-bottom: 36px;
+}
+
+.gift-text {
+  font-size: 20px;
+  width: 422px;
+  line-height: calc(28 / 20);
+}
+.gift-button {
+  font-family: 'Gilroy Regular', sans-serif;
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background-color: #f7941e;
+  border: none;
+  border-color: #f7941e;
+  border-radius: 5px;
+  transition: 800ms linear;
+}
+.gift-button:hover {
+  color: #f7941e;
+  background-color: transparent;
+}
+/* ---------Feature---------- */
+.feature-img {
+  margin-right: 0;
+  padding: 0;
+
+  display: block;
+}
+.feature {
+  display: flex;
+  padding: 0;
+  background-color: #f1f1f2;
+}
+.feature-title {
+  font-size: 32px;
+  line-height: (45 / 32);
+  font-weight: 300;
+
+  margin-bottom: 25px;
+  padding-top: 164px;
+}
+
+.feature-about {
+  padding-left: 112px;
+}
+
+.feature-text {
+  font-size: 20px;
+  line-height: calc(28 / 20);
+  text-align: justify;
+
+  margin-bottom: 35px;
+  margin-right: 165px;
+}
+
+.feature-button {
+  font-family: inherit;
+
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  line-height: 1.34;
+
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #f7941e;
+  border: 1px solid #f7941e;
+  border-radius: 5px;
+}
+/* ------------Post---------- */
+
+.post {
+  padding: 0 126px 120px;
+}
+
+.post-title {
+  font-size: 32px;
+  line-height: calc(38 / 32);
+  font-weight: 300;
+
+  text-align: center;
+  margin-top: 96px;
+  margin-bottom: 23px;
+}
+
+.post-about {
+  font-size: 18px;
+  line-height: calc(24 / 18);
+  text-align: center;
+
+  margin-bottom: 57px;
+}
+
+.post-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.post-item {
+  background-color: #fafafa;
+}
+
+.post-img {
+  display: block;
+}
+
+.post-thumb {
+  padding: 24px;
+}
+
+.post-subtitle {
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  font-weight: 300;
+
+  margin-bottom: 74px;
+}
